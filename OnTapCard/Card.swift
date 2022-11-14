@@ -7,9 +7,10 @@
 
 import Foundation
 
-struct Card {
+struct Card: Codable {
     let question : String
     let answer : String
+   
+    static let example = Card(question: "How to make multiple Views?", answer: "VStack, HStack and ZStack")
     
-    static let example = Card(question: "How can you arrange multiple views", answer: "If we want to return multiple views we use HStack, VStack, and ZStack.")
 }

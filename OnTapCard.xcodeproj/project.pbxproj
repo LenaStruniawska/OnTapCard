@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C786D76292243C800A3043A /* EditCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C786D75292243C800A3043A /* EditCards.swift */; };
 		2C8A755B291A3D12003C5564 /* OnTapCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8A755A291A3D12003C5564 /* OnTapCardApp.swift */; };
 		2C8A755D291A3D12003C5564 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8A755C291A3D12003C5564 /* ContentView.swift */; };
 		2C8A755F291A3D14003C5564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C8A755E291A3D14003C5564 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C786D75292243C800A3043A /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
 		2C8A7557291A3D12003C5564 /* OnTapCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnTapCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C8A755A291A3D12003C5564 /* OnTapCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTapCardApp.swift; sourceTree = "<group>"; };
 		2C8A755C291A3D12003C5564 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				2C8A755E291A3D14003C5564 /* Assets.xcassets */,
 				2C8A7560291A3D14003C5564 /* Preview Content */,
 				2C8A7568291A3D74003C5564 /* Card.swift */,
+				2C786D75292243C800A3043A /* EditCards.swift */,
 				2C8A756A291A3F07003C5564 /* CardView.swift */,
 			);
 			path = OnTapCard;
@@ -146,6 +149,7 @@
 				2C8A755D291A3D12003C5564 /* ContentView.swift in Sources */,
 				2C8A7569291A3D74003C5564 /* Card.swift in Sources */,
 				2C8A756B291A3F07003C5564 /* CardView.swift in Sources */,
+				2C786D76292243C800A3043A /* EditCards.swift in Sources */,
 				2C8A755B291A3D12003C5564 /* OnTapCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
